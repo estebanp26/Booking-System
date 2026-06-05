@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "userId": 2,
+      "workspace": "Sala A",
+      "date": "2026-01-15",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "reason": "Sprint Planning",
+      "status": "approved"
+    },
+    {
+      "workspace": "Sala B",
+      "date": "2026-07-09",
+      "startHour": "06:00",
+      "endHour": "11:00",
+      "reason": "Socializacion proyecto ",
+      "status": "rejected",
+      "userId": "2",
+      "id": "4oSsUlbLUXI"
+    }
+  ],
+  "spaces": [
+    {
+      "id": "1",
+      "name": "Sala A",
+      "type": "Meeting Room",
+      "capacity": 8
+    },
+    {
+      "id": "2",
+      "name": "Oficina 3",
+      "type": "Private Office",
+      "capacity": 4
+    },
+    {
+      "name": "One to one",
+      "type": "Oficina Administrativa",
+      "capacity": 2,
+      "id": "E9TSyh5b5jg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
